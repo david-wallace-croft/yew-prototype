@@ -5,7 +5,8 @@
 ## Usage
 
 - cd yew-prototype/
-- cargo run
+- cargo install --locked trunk
+- trunk serve --open
 
 ## History
 

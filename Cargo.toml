@@ -1,6 +1,6 @@
 [package]
 name = "yew-prototype"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["David Wallace Croft <david@croftsoft.com>"]
 # Use the categories from https://crates.io/categories
 # categories = ["category-name"]
@@ -16,7 +16,8 @@ readme = "README.md"
 # Remark this line out if your project is not in a code repository
 repository = "https://github.com/david-wallace-croft/yew-prototype"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# See more keys and their definitions at
+# https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = "0.19.3"
+yew = { version = "0.20.0", features = ["csr"] }
