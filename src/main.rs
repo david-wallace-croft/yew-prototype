@@ -1,9 +1,13 @@
 use yew::prelude::*;
 
+pub mod pages;
+
 #[function_component(App)]
 fn app() -> Html {
   html! {
-    <h1>{ "Hello, World!" }</h1>
+    <>
+    <pages::flash_card::FlashCard />
+    </>
   }
 }
 
