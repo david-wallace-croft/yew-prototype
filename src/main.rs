@@ -1,16 +1,5 @@
-use yew::prelude::*;
-
-pub mod pages;
-
-#[function_component(App)]
-fn app() -> Html {
-  html! {
-    <>
-    <pages::flash_card::FlashCard />
-    </>
-  }
-}
+pub mod components;
 
 fn main() {
-  yew::Renderer::<App>::new().render();
+  yew::Renderer::<components::app::App>::new().render();
 }
