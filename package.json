@@ -3,7 +3,8 @@
   "version": "0.2.1-SNAPSHOT",
   "description": "Yew Prototype",
   "scripts": {
-    "tailwindcss": "tailwindcss -i input.css -o app.css"
+    "prestart": "tailwindcss -i input.css -o app.css",
+    "start": "trunk serve --open"
   },
   "repository": {
     "type": "git",

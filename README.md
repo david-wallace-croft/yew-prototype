@@ -7,7 +7,7 @@
 - cd yew-prototype/
 - cargo install --locked trunk
 - npm install
-- trunk serve --open
+- npm start
 
 ## History
 
