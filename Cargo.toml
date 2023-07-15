@@ -1,6 +1,6 @@
 [package]
 name = "yew-prototype"
-version = "0.2.0"
+version = "0.2.1-SNAPSHOT"
 authors = ["David Wallace Croft <david@croftsoft.com>"]
 # Use the categories from https://crates.io/categories
 # categories = ["category-name"]
