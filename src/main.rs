@@ -1,5 +1,8 @@
 pub mod components;
 
+use components::app::App;
+use yew::Renderer;
+
 fn main() {
-  yew::Renderer::<components::app::App>::new().render();
+  Renderer::<App>::new().render();
 }
